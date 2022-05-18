@@ -1,0 +1,174 @@
+.wrapper {
+  margin: 0px auto;
+  width: 1200px;
+}
+
+.wrapper .header {
+  background-color: #ffffff;
+}
+.wrapper .header .classification {
+  display: flex;
+  padding: 20px;
+}
+
+.wrapper .header .classification .label {
+  flex-grow: 0;
+  color: #999;
+}
+.wrapper .header .classification .content {
+  width: 0px;
+  flex-grow: 1;
+}
+.wrapper .header .classification .content span,
+.wrapper .header .classification .label {
+  display: inline-block;
+  padding: 10px;
+}
+.wrapper .header .classification .content span {
+  margin: 0px 10px;
+}
+
+.wrapper .header .classification .content span.active {
+  background-color: #00b779;
+}
+.wrapper .body {
+  display: flex;
+  justify-content: space-between;
+  background-color: #fdfdfd;
+}
+
+.wrapper .body .left,
+.wrapper .body .right {
+  border: 1px solid #00000055;
+}
+
+.wrapper .body .left {
+  width: 850px;
+}
+.wrapper .body .left .top {
+  display: flex;
+  justify-content: right;
+  align-items: center;
+
+  height: 50px;
+  background-color: #ecedea;
+}
+
+.wrapper .body .left .top label {
+  margin-right: 20px;
+  display: inline-block;
+}
+
+.wrapper .body .left .top label select {
+  padding: 5px;
+}
+
+.wrapper .body .left .content {
+  padding: 20px;
+}
+.wrapper .body .left .content .item {
+  display: flex;
+  height: 200px;
+  width: 100%;
+}
+.wrapper .body .left .content .item .img {
+  height: 100%;
+  width: 30%;
+}
+.wrapper .body .left .content .item .img img {
+  height: 100%;
+  width: 100%;
+}
+.wrapper .body .left .content .item .describe-box {
+  padding-left: 20px;
+  height: 100%;
+  width: 70%;
+}
+
+.wrapper .body .left .content .item .describe-box .title {
+  font-size: 2rem;
+  margin-top: 18px;
+  margin-bottom: 30px;
+  transition: color 0.6s ease;
+}
+.wrapper .body .left .content .item .describe-box .title:hover {
+  color: #74b9ff;
+}
+.wrapper .body .left .content .item .describe-box .info {
+  font-size: 1rem;
+  color: #747d8c;
+  margin-bottom: 25px;
+}
+
+.wrapper .body .left .content .item .describe-box .describe {
+  font-size: 1rem;
+  margin-bottom: 20px;
+}
+.wrapper .body .left .content .item .describe-box .address {
+  font-size: 0.8rem;
+  color: #747d8c;
+}
+.wrapper .body .left .content .line {
+  margin: 10px 0px;
+  height: 1px;
+  width: 100%;
+  background-color: #000;
+}
+
+.wrapper .body .right {
+  width: 330px;
+}
+
+.wrapper .body .right .top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 20px;
+  height: 50px;
+  border-bottom: 1px solid #00000055;
+}
+.wrapper .body .right .top span:nth-child(1) {
+  font-size: 1.5rem;
+}
+.wrapper .body .right .top span:nth-child(2) {
+  font-size: 1rem;
+  color: #a4b0be;
+}
+
+.wrapper .body .right .content {
+  padding: 20px;
+}
+.wrapper .body .right .content .item {
+  width: 100%;
+  margin-bottom: 10px;
+}
+.wrapper .footer {
+  display: inline-block;
+  width: 100%;
+  background-color: #dfe4ea;
+}
+.wrapper .footer .content {
+  display: flex;
+  justify-content: center;
+  margin: 50px 0;
+  height: 120px;
+}
+.wrapper .footer span {
+  margin: 0;
+}
+.wrapper .footer span p {
+  margin: 3px 0;
+}
+.wrapper .footer span .title {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+.wrapper .footer .line {
+  height: 100%;
+  width: 1px;
+  margin: 0 20px;
+  background-color: #000;
+}
+.wrapper .footer .logo img {
+  height: 100%;
+}
